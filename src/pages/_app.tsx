@@ -5,12 +5,14 @@ import '../styles/globals.css'
 import type { AppProps } from 'next/app'
 
 function MyApp({ Component, pageProps }: AppProps) {
-  return <>
+  return  <div className="flex flex-col min-h-screen">
   <Header />
   <Navbar />
-  <Component {...pageProps} /> 
+  <div className="flex-grow">
+    <Component {...pageProps} /> 
+  </div>
   <Footer/>
-  </>;
+</div>
 
 }
 
