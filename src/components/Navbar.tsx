@@ -1,5 +1,6 @@
 import React from 'react';
 import { Menu } from '@headlessui/react';
+import Link from 'next/link';
 
 const Navbar = () => {
   return (
@@ -64,7 +65,11 @@ const Navbar = () => {
               </Menu.Item>
             </Menu.Items>
           </Menu>
-          <a href='#' className='text-white'>CONTACT</a>
+
+
+          <Link href='/contact'>
+     CONTACT
+          </Link>
         </div>
       </div>
     </nav>
