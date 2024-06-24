@@ -1,7 +1,7 @@
 import React from "react";
 
 const blogs = () => {
-  return <div>Blogs</div>;
+  return <div>Blogs & Articles</div>;
 };
 
 export default blogs;
