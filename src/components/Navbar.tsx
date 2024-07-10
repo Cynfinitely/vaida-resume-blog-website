@@ -7,14 +7,10 @@ const Navbar = () => {
     <nav className="bg-secondaryColor text-white p-6">
       <div className="font-source-sans font-bold">
         <div className="flex justify-evenly items-center text-2xl space-x-4">
-          <a
-            href="#"
-            className="text-white">
+          <a href="/" className="text-white">
             HOME
           </a>
-          <Menu
-            as="div"
-            className="relative inline-block text-left">
+          <Menu as="div" className="relative inline-block text-left">
             <div>
               <Menu.Button className="inline-flex justify-center w-full text-white">
                 THEMES
@@ -27,7 +23,8 @@ const Navbar = () => {
                     href="#"
                     className={`${
                       active ? "bg-violet-500 text-white" : "text-gray-900"
-                    } group flex rounded-md items-center w-full px-2 py-2 text-sm`}>
+                    } group flex rounded-md items-center w-full px-2 py-2 text-sm`}
+                  >
                     Labour Market Analysis
                   </a>
                 )}
@@ -38,7 +35,8 @@ const Navbar = () => {
                     href="#"
                     className={`${
                       active ? "bg-violet-500 text-white" : "text-gray-900"
-                    } group flex rounded-md items-center w-full px-2 py-2 text-sm`}>
+                    } group flex rounded-md items-center w-full px-2 py-2 text-sm`}
+                  >
                     Immigrant Employment
                   </a>
                 )}
@@ -49,7 +47,8 @@ const Navbar = () => {
                     href="#"
                     className={`${
                       active ? "bg-violet-500 text-white" : "text-gray-900"
-                    } group flex rounded-md items-center w-full px-2 py-2 text-sm`}>
+                    } group flex rounded-md items-center w-full px-2 py-2 text-sm`}
+                  >
                     Employer Branding
                   </a>
                 )}
@@ -60,7 +59,8 @@ const Navbar = () => {
                     href="#"
                     className={`${
                       active ? "bg-violet-500 text-white" : "text-gray-900"
-                    } group flex rounded-md items-center w-full px-2 py-2 text-sm`}>
+                    } group flex rounded-md items-center w-full px-2 py-2 text-sm`}
+                  >
                     Job Search
                   </a>
                 )}
